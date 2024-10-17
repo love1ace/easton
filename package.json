@@ -1,0 +1,41 @@
+{
+  "name": "easton",
+  "version": "1.0.0",
+  "description": "Use ANSI styles and HEX/RGB in CLI",
+  "main": "./CJS/index.cjs",
+  "module": "./ESM/index.js",
+  "type": "module",
+  "exports": {
+    "import": "./ESM/index.js",
+    "require": "./CJS/index.cjs"
+  },
+  "files": [
+    "CJS/index.cjs",
+    "CJS/styles.cjs",
+    "ESM/index.js",
+    "ESM/styles.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "author": "love1ace",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/love1ace/easton.git"
+  },
+  "keywords": [
+    "easton",
+    "chalk",
+    "ansi-colors",
+    "cli",
+    "love1ace"
+  ],
+  "bugs": {
+    "url": "https://github.com/love1ace/easton/issues"
+  },
+  "homepage": "https://github.com/love1ace/easton#readme",
+  "dependencies": {
+    "hex-to-ansi": "^1.0.1",
+    "rgb-to-ansi": "^1.0.2"
+  }
+}
