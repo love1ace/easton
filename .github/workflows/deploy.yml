@@ -29,7 +29,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # 5. npm publish 실행
+      # 5. 테스트 실행
+      - name: Run tests
+        run: npm test
+
+      # 6. npm publish 실행 (테스트가 성공한 경우에만 실행)
       - name: Publish package
         run: npm publish
         env:

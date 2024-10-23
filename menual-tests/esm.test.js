@@ -1,5 +1,5 @@
-import easton from './index.js';
-import { styles } from './styles.js';
+import easton from '../ESM/index.js';
+import { styles } from '../ESM/styles.js';
 // Test all styles with HEX and RGB
 console.log('--- All Styles Test ---');
 

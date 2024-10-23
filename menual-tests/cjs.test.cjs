@@ -1,5 +1,5 @@
-const easton = require('./index.cjs');
-const { styles } = require('./styles.cjs');
+const easton = require('../CJS/index.cjs');
+const { styles } = require('../CJS/styles.cjs');
 
 // 모든 스타일을 HEX와 RGB로 테스트합니다.
 console.log('--- All Styles Test ---');
