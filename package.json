@@ -1,6 +1,6 @@
 {
   "name": "easton",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use ANSI styles and HEX/RGB in CLI",
   "main": "./CJS/index.cjs",
   "module": "./ESM/index.js",
